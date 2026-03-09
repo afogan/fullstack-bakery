@@ -1,0 +1,104 @@
+html {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+    font-size: 1.5em;
+    background-color: burlywood;    
+}
+.brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0%;
+    font-size: 2em;
+    font-weight: bolder;
+    background-color: chartreuse;
+    border: .2em solid white
+}
+nav {
+    display: flex;
+    justify-content: space-between; 
+    margin: 0ch;
+    padding: 2em;
+    border: .2em solid white; 
+    background-color: chartreuse;
+}
+.items {
+    font-weight: bolder;
+    padding: 0%;
+    margin-top: -1em;
+
+}
+ul {
+    display: flex;
+    align-items: flex-start; flex-direction: column; 
+    margin: 0ch;
+    padding-left: 0ch;
+    gap: 2em;
+}
+#pies {
+    display: flex;
+    background-color: chartreuse; 
+    border: 0.2em solid white;
+}    
+#muffins {
+    background-color: chartreuse;
+    border: 0.2em solid white
+}
+#cookies {
+    background-color: chartreuse;
+    border: 0.2em solid white
+}
+#cakes {
+    background-color: chartreuse;
+    border: 0.2em solid white
+}
+#bread {
+    background-color: chartreuse;
+    border: 0.2em solid white;
+    margin-top: 1em;
+}
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-left: 2em;
+    margin-top: 0em;
+}
+p {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 4em;    
+}
+.testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: black;
+    margin-left: 9em;
+    font-size: large; color: palevioletred; font-weight: bolder;   
+}
+article {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-bottom: 100em;
+    margin-top: -16em;
+    
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin-left: 0em;
+    padding: 2em;
+    align-items: flex-end;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: palevioletred;
+}
+figcaption {
+    display: flex;
+    align-items: center; 
+}
+
